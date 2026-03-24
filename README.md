@@ -91,7 +91,7 @@ Diseñé una encuesta de 6 preguntas para los 21 miembros: "Radiografía organiz
 
 4. **La música propia como techo de crecimiento.** Cuando tengan canciones propias que el público cante, "no tiene techo". Norte estratégico a largo plazo.
 
-5. **El líder se imagina afuera.** En su proyección personal, el co-fundador B se ve saliendo del proyecto. Esto da urgencia a la institucionalización: el sistema tiene que funcionar sin depender de él.
+5. **Riesgo de dependencia de personas clave.** Las proyecciones a futuro de algunos integrantes sugieren que la organización necesita funcionar sin depender de ninguna persona en particular. Esto da urgencia a la institucionalización de procesos y conocimiento.
 
 ---
 
