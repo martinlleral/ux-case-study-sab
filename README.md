@@ -32,16 +32,18 @@ Los líderes expresaban desgaste real:
 
 **UX Researcher + Facilitador + Product Owner**
 
-Entré como observador participante desde febrero de 2026. Mi trabajo fue: entender cómo funciona la organización desde adentro, identificar los problemas reales (no los percibidos), y diseñar un sistema que los resuelva sin romper la cultura del grupo.
+Mi involucramiento con la organización comenzó en el Q4 de 2025, asistiendo a shows, ensayos y reuniones como observador participante. Durante varios meses escuché, registré y busqué entender cómo funciona el sistema desde adentro antes de proponer cualquier intervención. Recién con ese entendimiento profundo pasé a aplicar técnicas de investigación específicas y diseñar soluciones que respeten la cultura del grupo.
 
 ---
 
 ## Metodología
 
-### 1. Observación participante (feb-mar 2026)
-Asistí a ensayos, shows y reuniones de círculos como insider. Esto me permitió observar dinámicas que no aparecen en entrevistas: quién habla, quién calla, cómo se toman las decisiones informales, qué rituales son sagrados.
+### 1. Observación participante (Q4 2025 — feb 2026)
+Durante ~4 meses asistí a ensayos, shows y reuniones de círculos como insider, sin intervenir ni proponer cambios. Esto me permitió observar dinámicas que no aparecen en entrevistas: quién habla, quién calla, cómo se toman las decisiones informales, qué rituales son sagrados. En febrero sistematicé todo el registro acumulado: notas de campo, conversaciones informales y patrones observados.
 
-### 2. Entrevistas semi-estructuradas de profundidad
+### 2. Entrevistas semi-estructuradas de profundidad (marzo 2026)
+Con el entendimiento construido durante la observación, diseñé guiones específicos para profundizar en los ejes críticos identificados.
+
 Realicé **2 entrevistas con los co-fundadores** — las dos personas con mayor carga operativa y visión estratégica:
 
 | Entrevistado | Duración | Modalidad | Foco |
@@ -51,10 +53,10 @@ Realicé **2 entrevistas con los co-fundadores** — las dos personas con mayor 
 
 **Guión semi-estructurado** con ejes: carga operativa, percepción de la sociocracia, rituales valorados, visión a 3 años, miedos sobre la sistematización.
 
-### 3. Análisis cruzado
+### 3. Análisis cruzado (marzo 2026)
 Analicé cada entrevista individualmente (tabla de dimensiones × hallazgos × citas textuales), y luego crucé los resultados para identificar **convergencias** (6 puntos de acuerdo) y **divergencias** (4 tensiones productivas).
 
-### 4. Diseño de encuesta cuantitativa-cualitativa
+### 4. Diseño de encuesta cuantitativa-cualitativa (marzo 2026)
 Diseñé una encuesta de 6 preguntas para los 21 miembros: "Radiografía organizacional". Anónima, < 3 minutos, optimizada para celular. Las categorías de la pregunta de fricciones salieron directamente de los hallazgos de las entrevistas.
 
 ---
@@ -154,11 +156,13 @@ Cada user story fue deducida directamente del análisis cruzado, con trazabilida
 
 ## Roadmap
 
-### Fase 0: Discovery (marzo 2026)
-Escuchar sin intervenir. Ganar legitimidad con datos.
-- Distribuir encuesta a 21 miembros
-- Cruzar resultados con análisis de entrevistas
-- Presentar informe en reunión general
+### Fase 0: Discovery (Q4 2025 — marzo 2026)
+Escuchar antes de intervenir. Construir entendimiento y legitimidad con datos.
+- Observación participante durante ~4 meses (shows, ensayos, reuniones)
+- Sistematización del registro acumulado (febrero)
+- Entrevistas semi-estructuradas con stakeholders clave (marzo)
+- Diseño y distribución de encuesta a los 21 miembros
+- Análisis cruzado y presentación de informe en reunión general
 
 ### Sprint 1: "Claridad" (abril, semanas 1-2)
 Sprint Goal: *Las decisiones quedan escritas, los shows terminan con registro, y cada coordinador sabe qué le toca.*
