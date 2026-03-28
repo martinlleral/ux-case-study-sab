@@ -1,5 +1,23 @@
 # Caso de Estudio UX: Sistematización Ágil de una Cooperativa Musical
 
+> **Cooperativa musical, 21 integrantes, La Plata, Argentina.**
+> Investigación de campo de 4 meses (observación participante + entrevistas de profundidad + encuesta) que derivó en el rediseño del sistema operativo de la organización.
+
+| Métrica | Línea de base (observada) | Proyección post-implementación |
+|---------|--------------------------|-------------------------------|
+| Duración de reuniones | 2 horas promedio | 45 minutos (meta Sprint 1) |
+| Tiempo de actas | 1-2 días (manual) | < 10 min con IA (validado en prueba piloto) |
+| Carga semanal en reuniones | ~42 person-hours* | ~16 person-hours (meta) |
+| Decisiones re-discutidas/mes | 5-8 (estimado por stakeholders) | 0-1 (meta con bitácora centralizada) |
+
+*\*Cálculo: reunión general semanal de 2h × 21 asistentes = 42 person-hours. No incluye reuniones de círculos (8 círculos de 3-5 personas con frecuencia variable).*
+
+**Métodos:** Observación participante, entrevistas semi-estructuradas, análisis cruzado, diseño de encuesta, priorización MoSCoW, Scrum, Sociocracia 3.0
+
+> **Estado del caso:** Fase 0 (Discovery) completada. Sprint 1 inicia en abril 2026. Las métricas de impacto serán actualizadas con datos reales post-implementación.
+
+---
+
 ## Contexto
 
 Una cooperativa musical de **21 integrantes** (17 músicos, 2 bailarines, 1 técnico, 1 productor) en La Plata, Argentina, con ciclos regulares de shows en vivo y una estructura organizativa basada en **sociocracia** (8 círculos: General, Ciclo, Artística, Finanzas, Managereo, Comunicación, Merch, Técnica).
@@ -35,6 +53,37 @@ Los líderes expresaban desgaste real:
 Mi involucramiento con la organización comenzó en el Q4 de 2025, asistiendo a shows, ensayos y reuniones como observador participante. Durante varios meses escuché, registré y busqué entender cómo funciona el sistema desde adentro antes de proponer cualquier intervención. Recién con ese entendimiento profundo pasé a aplicar técnicas de investigación específicas y diseñar soluciones que respeten la cultura del grupo.
 
 ---
+
+## Línea de base documentada e impacto proyectado
+
+| Métrica | Línea de base (observada) | Proyección post-Sprint 1 | Cómo se mide |
+|---------|--------------------------|--------------------------|--------------|
+| Duración de reuniones | 2h promedio (observación directa, 4 meses) | 45 min (meta) | Registro de inicio/fin por facilitador |
+| Tiempo de actas | 1-2 días manual | < 10 min con IA (validado en piloto) | Timestamp de publicación del acta |
+| Carga semanal en reuniones | ~42 person-hours (reunión general 2h × 21) | ~16 person-hours | Asistencia × duración |
+| Decisiones re-discutidas/mes | 5-8 (estimado por co-fundadores) | 0-1 (con bitácora centralizada) | Conteo en retrospectivas |
+| Onboarding de invitados | 5-10 mensajes WA por artista | 1 link (kit Notion) | Mensajes enviados al invitado |
+| Canales de comunicación | 210 posibles (n×(n-1)/2, sin estructura) | 42 (8 círculos de 3-5 personas) | Fórmula de complejidad comunicacional |
+
+> **Nota metodológica:** Las métricas "antes" fueron documentadas durante la observación participante y validadas en las entrevistas con los co-fundadores. Las métricas "después" son proyecciones basadas en el diseño propuesto. Serán actualizadas con datos reales al cierre del Sprint 1 (abril 2026).
+
+---
+
+## Proceso de investigación
+
+```mermaid
+graph LR
+    A["Observación\nparticipante\n4 meses"] --> B["Entrevistas\nen profundidad\n2 stakeholders"]
+    B --> C["Análisis\ncruzado\nconvergencias +\ndivergencias"]
+    C --> D["Encuesta\n21 miembros\nvalidación"]
+    D --> E["User Stories\n+ Roadmap\n3 sprints"]
+
+    style A fill:#4A90D9,color:#fff
+    style B fill:#7B68EE,color:#fff
+    style C fill:#E67E22,color:#fff
+    style D fill:#27AE60,color:#fff
+    style E fill:#E74C3C,color:#fff
+```
 
 ## Metodología
 
@@ -150,7 +199,7 @@ Cada user story fue deducida directamente del análisis cruzado, con trazabilida
 | Sobrecarga en líderes | US-DIG-01, US-OPS-01 | 1 |
 | Comunicación deficiente | US-GOB-03, US-OPS-02 | 2 |
 | Sociocracia a medias | US-OPS-03, US-GOB-02 | 1-2 |
-| Herramientas sin adoptar | US-DIG-02 (interfaz invisible) | 3 |
+| Herramientas sin adoptar | Interfaz audio-first (WhatsApp → Notion) | 3 |
 
 ---
 
@@ -186,19 +235,6 @@ Sprint Goal: *Las decisiones quedan escritas, los shows terminan con registro, y
 
 ---
 
-## Resultados e impacto
-
-| Métrica | Antes | Después | Cambio |
-|---------|-------|---------|--------|
-| Duración de reuniones | 2 horas | 45 minutos | **-56%** |
-| Tiempo de actas | 1-2 días (manual) | < 10 minutos (IA) | **-95%** |
-| Horas humanas ahorradas/semana | — | **42 horas** (2h × 21 personas) | — |
-| Decisiones re-discutidas/mes | 5-8 | 0-1 | **-90%** |
-| Onboarding de invitados | 5-10 mensajes WA | 1 link | **-80%** |
-| Canales de comunicación | 210 (sin estructura) | 42 (con círculos) | **-80%** |
-
----
-
 ## Marco teórico
 
 - **Número de Dunbar:** Una organización de 21 personas está en la zona de transición (entre el grupo íntimo de 15 y el clan de 50). Requiere estructura formal para funcionar, pero puede mantener relaciones de confianza directa.
@@ -208,6 +244,16 @@ Sprint Goal: *Las decisiones quedan escritas, los shows terminan con registro, y
 - **Sociocracia 3.0:** La organización había adoptado la estructura de círculos pero sin los roles de soporte (facilitador, secretario). Completar la implementación fue clave.
 
 - **Fórmula de canales de comunicación:** n×(n-1)/2. Con 21 personas sin estructura = 210 canales posibles. Con 8 círculos de ~3-5 personas = ~42 canales. Reducción del 80% en complejidad comunicacional.
+
+---
+
+## Limitaciones del estudio
+
+1. **Sesgo de insider.** Mi rol como observador participante durante 4 meses me dio acceso privilegiado a dinámicas informales, pero también cercanía emocional con el grupo. Mitigación: las entrevistas semi-estructuradas siguieron un guión predefinido con ejes analíticos explícitos, y el análisis cruzado buscó activamente divergencias, no solo confirmaciones.
+
+2. **Muestra de entrevistas acotada.** Las 2 entrevistas en profundidad fueron con los co-fundadores — las personas con mayor carga operativa y visión estratégica, pero también con mayor interés en que la sistematización funcione. La encuesta a los 21 miembros complementa esta limitación con una perspectiva más amplia.
+
+3. **Métricas pre-implementación.** Al momento de publicación, el Sprint 1 no se ha ejecutado. Las métricas de impacto son proyecciones fundamentadas en la línea de base observada, no resultados medidos. Este caso será actualizado con datos reales post-implementación.
 
 ---
 
@@ -240,7 +286,7 @@ Sprint Goal: *Las decisiones quedan escritas, los shows terminan con registro, y
 
 ## Autor
 
-**Martín Lleral** — Lic. en Antropología (UNLP) | Co-fundador de TRAMA | Sistematización ágil para organizaciones
+**Martín Lleral** — UX Researcher & Service Designer | Lic. en Antropología (UNLP)
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/mart%C3%ADn-lleral-9a57a475)
 [![GitHub](https://img.shields.io/badge/GitHub-100000?style=flat&logo=github&logoColor=white)](https://github.com/martinlleral)
